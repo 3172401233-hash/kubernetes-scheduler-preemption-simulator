@@ -1,0 +1,13 @@
+{
+  "name": "kubernetes-scheduler-preemption-simulator",
+  "version": "0.1.0",
+  "private": true,
+  "description": "调度抢占模拟器：模拟调度队列、拓扑约束、PDB 与抢占链的级联影响（纯本地模拟，不调用 API Server）",
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}
